@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Fenix World</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div>
+      <div class="logo">🔥 FENIX</div>
+      <div class="muted">WORLD V1</div>
+    </div>
+    <button class="icon-btn" onclick="showToast('Профиль и настройки скоро')">⚙️</button>
+  </header>
+
+  <main id="screen"></main>
+
+  <nav class="nav">
+    <button class="nav-btn active" data-screen="home">🏠<span>Главная</span></button>
+    <button class="nav-btn" data-screen="games">🎮<span>Игры</span></button>
+    <button class="nav-btn" data-screen="collection">🐦<span>Коллекция</span></button>
+    <button class="nav-btn" data-screen="rating">🏆<span>Рейтинг</span></button>
+    <button class="nav-btn" data-screen="profile">👤<span>Профиль</span></button>
+  </nav>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>
